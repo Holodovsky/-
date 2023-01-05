@@ -1,4 +1,5 @@
 @import "./reset.css";
+@import "./css.css";
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
 
 
@@ -32,14 +33,14 @@
 
 .dark {
   /* !!!!!!!!!!!!!!!!!!!!Dark mode */
-  --page-bg: #252526;
-  --text-color: var(--white);
+    --page-bg: #252526;
+    --text-color: var(--white);
 
-  --title-1: var(--white);
+    --title-1: var(--white);
 
-  --project-card-bg: var(--black);
-  --project-card-text: var(--white);
-  --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
+    --project-card-bg: var(--black);
+    --project-card-text: var(--white);
+    --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
 }
 
 html, body{
@@ -59,6 +60,7 @@ html, body{
     padding: 0 15px;
     max-width: 1200px;
 }
+
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!НАВИГИЦИЯ */
 
